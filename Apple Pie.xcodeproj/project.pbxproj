@@ -14,6 +14,7 @@
 		DC1E52B81FB0A4F8003F5C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1E52B61FB0A4F8003F5C92 /* LaunchScreen.storyboard */; };
 		DC1E52C31FB0A4F8003F5C92 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E52C21FB0A4F8003F5C92 /* Apple_PieTests.swift */; };
 		DC1E52CE1FB0A4F8003F5C92 /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E52CD1FB0A4F8003F5C92 /* Apple_PieUITests.swift */; };
+		DC1E52EC1FB0B46C003F5C92 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E52EB1FB0B46C003F5C92 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DC1E52C91FB0A4F8003F5C92 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1E52CD1FB0A4F8003F5C92 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		DC1E52CF1FB0A4F8003F5C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1E52EB1FB0B46C003F5C92 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DC1E52AD1FB0A4F8003F5C92 /* AppDelegate.swift */,
 				DC1E52AF1FB0A4F8003F5C92 /* ViewController.swift */,
 				DC1E52B11FB0A4F8003F5C92 /* Main.storyboard */,
+				DC1E52EB1FB0B46C003F5C92 /* Game.swift */,
 				DC1E52B41FB0A4F8003F5C92 /* Assets.xcassets */,
 				DC1E52B61FB0A4F8003F5C92 /* LaunchScreen.storyboard */,
 				DC1E52B91FB0A4F8003F5C92 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1E52B01FB0A4F8003F5C92 /* ViewController.swift in Sources */,
+				DC1E52EC1FB0B46C003F5C92 /* Game.swift in Sources */,
 				DC1E52AE1FB0A4F8003F5C92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GavinSchipper.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -448,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GavinSchipper.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
